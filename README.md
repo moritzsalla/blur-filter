@@ -1,4 +1,4 @@
-# Image Processing Blur
+# Image Processing—Canvas Blur Filter
 
 ![Image](screenshot.png)
 
