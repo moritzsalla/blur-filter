@@ -1,6 +1,7 @@
 # Image Processing—Canvas Blur Filter
 
 ![Image](screenshot.png)
+Image Dominik Lange
 
 
 ```javascript
