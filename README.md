@@ -1,7 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/82426bbe-8cba-4e80-92a7-c70fda097ec6/deploy-status)](https://app.netlify.com/sites/optimistic-kowalevski-5fae52/deploys)
-
-https://blurblurblur.netlify.com/
-
 # Image Processing Blur
 
 ![Image](screenshot.png)
