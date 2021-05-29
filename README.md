@@ -1,8 +1,7 @@
-# Image Processing—Canvas Blur Filter
+# Performing Pixel Operations on HTML Canvas
 
 ![Image](screenshot.png)
 Image Dominik Lange
-
 
 ```javascript
 position=(x+y*imageData.width)*4;

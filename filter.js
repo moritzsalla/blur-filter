@@ -1,7 +1,7 @@
 let imageObj = new Image()
 imageObj.src = "img.jpg"
 
-imageObj.onload = calcFilter => {
+imageObj.onload = () => {
   let canvas = document.getElementById('myCanvas')
   let canvas2 = document.getElementById('myCanvas2')
 
@@ -24,10 +24,12 @@ imageObj.onload = calcFilter => {
 
   // write new values to array
   for (let i = 0, len = input.data.length; i < len; i++) {
+    // skip canvas's alpha channel
     if (i % 4 === 3) {
       continue
     }
 
+    // kernel operations linear blur
     output.data[i] = (input.data[i] +
       (input.data[i - 4] || input.data[i]) +
       (input.data[i + 4] || input.data[i]) +
