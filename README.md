@@ -1,7 +1,6 @@
 # Performing Pixel Operations on HTML Canvas
 
-![Image](screenshot.png)
-Image Dominik Lange
+![Image of mountains by Dominik Lange](screenshot.png)
 
 ```javascript
 position=(x+y*imageData.width)*4;
@@ -30,6 +29,19 @@ x + y * width
 = 16
 
 (x + 1 * width) * 4
+```
+
+
+```javascript
+// we can skip alpha value like so
+for (let i = 0, len = input.data.length; i < len; i++) {
+    // skip canvas's alpha channel
+    if (i % 4 === 3) {
+      continue
+    }
+
+    // ...
+  }
 ```
 
 Good resources:
